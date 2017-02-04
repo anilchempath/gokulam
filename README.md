@@ -1,2 +1,1 @@
-# gokulam
-Gokulam Kalyanaraman
+## Project for building gokulam kalyana raman website

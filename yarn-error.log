@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/anil.chembath/.node/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.20.0
+
+Node version: 
+  4.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "Gokulam",
+    "title": "Gokulam Kalyanaraman",
+    "version": "0.0.1",
+    "author": "Anil",
+    "license": {
+      "type": "MIT"
+    },
+    "devDependencies": {
+      "bootstrap": "^3.3.7",
+      "browser-sync": "^2.13.0",
+      "font-awesome": "^4.6.3",
+      "gulp": "^3.9.1",
+      "gulp-clean-css": "^2.0.10",
+      "gulp-header": "^1.8.7",
+      "gulp-less": "^3.1.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.3.2",
+      "gulp-uglify": "^1.5.4",
+      "jquery": "^1.11.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anilchempath/gokulam.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://10.32.65.162:8080/stream-consume/-/stream-consume-0.1.0.tgz: Request failed "500 Internal Server Error"
+      at Request.res (/usr/local/Cellar/yarn/0.20.0/libexec/lib/node_modules/yarn/lib-legacy/fetchers/tarball-fetcher.js:237:20)
+      at emitOne (events.js:77:13)
+      at Request.emit (events.js:169:7)
+      at Request.onRequestResponse (/usr/local/Cellar/yarn/0.20.0/libexec/lib/node_modules/yarn/node_modules/request/request.js:986:10)
+      at emitOne (events.js:77:13)
+      at ClientRequest.emit (events.js:169:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:415:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+      at Socket.socketOnData (_http_client.js:305:20)
+      at emitOne (events.js:77:13)
+      at Socket.emit (events.js:169:7)
