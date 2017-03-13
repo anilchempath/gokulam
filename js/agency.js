@@ -28,6 +28,21 @@
         offset: {
             top: 100
         }
-    })
+    });
+    if($('#mainNavGallery').length>0){
+        $.ajax({
+            url : 'http://localhost:8080/gallery/?fn=family'
+        }).done(function(data){
+            $('#image-list').html(data);
+            $('#links').bind( 'click', function (event) {
+                event = event || window.event;
+                var target = event.target || event.srcElement,
+                    link = target.src ? target.parentNode : target,
+                    options = {index: link, event: event},
+                    links = this.getElementsByTagName('a');
+                blueimp.Gallery(links, options);
+            });
+        });
+    }
 
 })(jQuery); // End of use strict
