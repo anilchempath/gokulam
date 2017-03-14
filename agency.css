@@ -285,6 +285,13 @@ header .intro-text .intro-subheading {
   line-height: 30px;
   margin-bottom: 25px;
 }
+#about padding:25px 0px 0px 0 .about-text {
+  color: #777777;
+  font-size: 22px;
+}
+#galley {
+  padding: 50px 100px;
+}
 @media (min-width: 768px) {
   header {
     -webkit-background-size: cover;
@@ -594,16 +601,6 @@ section h3.section-subheading {
 }
 aside.clients img {
   margin: 50px auto;
-}
-section#about {
-  padding: 25px 0px 0px 0;
-}
-section#about .about-text {
-  color: #777777;
-  font-size: 22px;
-}
-section#gallery {
-  padding: 50px 0;
 }
 section#contact {
   background-color: #110030;

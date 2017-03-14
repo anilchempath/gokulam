@@ -153,8 +153,14 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 	.service-img{
-		width:360px;
+		width:400px;
 		height:240px;
+	}
+	.popup-gallery{
+		.img-responsive{
+			width:360px;
+			height:240px;
+		}
 	}
 }
 
@@ -187,11 +193,11 @@ header {
 	background-attachment: auto;
 	background-position: center center;
 	background-color:@gray-darker;
-	.background-cover;
 	padding-top:50px;
 	text-align: center;
-	height:500px;
 	color: white;
+	.background-contain;
+	height:230px;
 	.intro-text {
 		padding-top: 100px;
 		padding-bottom: 50px;
@@ -220,9 +226,10 @@ header {
 		}
 	}
 }
-
 @media(min-width:768px) {
 	header {
+		.background-cover;
+		height:500px;
 		.intro-text {
 			padding-top: 200px;
 			padding-bottom: 100px;
@@ -259,7 +266,7 @@ header {
 // Global Section Styles
 
 section {
-	padding: 100px 0;
+	padding: 50px 0;
 	h2.section-heading {
 		font-size: 40px;
 		margin-top: 0;
@@ -570,6 +577,16 @@ aside.clients {
 		margin: 50px auto;
 	}
 }
+section#about{
+	padding:25px 0px 0px 0;
+	.about-text{
+		color: @gray-light;
+		font-size:22px;
+	}
+}
+section#gallery{
+	padding:50px 0;
+}
 
 // Contact Section
 
@@ -581,6 +598,27 @@ section#contact {
 	.section-heading {
 		color: white;
 	}
+	.contact-address{
+		padding:20px;
+		font-size:20px;
+		.body-font;
+		color:@theme-primary;
+		.contact-title{
+			font-weight:bold;
+			.serif-font;
+			font-size:24px;
+		}
+	}
+	.heading{
+		font-size:24px;
+	    color: #ffffff;
+	    text-align: left;
+	    padding-bottom: 10px;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	}
+
+	
 	.form-group {
 		margin-bottom: 25px;
 		input,
